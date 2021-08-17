@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PicPay Clone</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_pagar">Pagar</string>
+    <string name="title_ajustes">Ajustes</string>
+    <string name="saldo">Meu saldo</string>
+    <string name="atividades">Atividades:</string>
+    <string name="contatos">Contatos:</string>
+    <string name="usuario">Usuário</string>
+    <string name="entrar">Entrar</string>
+    <string name="senha">Senha</string>
+</resources>

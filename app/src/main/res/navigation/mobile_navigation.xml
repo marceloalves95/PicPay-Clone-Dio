@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="br.com.picpay_clone_dio.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_pagar"
+        android:name="br.com.picpay_clone_dio.ui.pagar.PagarFragment"
+        android:label="@string/title_pagar"
+        tools:layout="@layout/fragment_pagar" />
+
+    <fragment
+        android:id="@+id/navigation_ajustes"
+        android:name="br.com.picpay_clone_dio.ui.ajuste.AjusteFragment"
+        android:label="@string/title_ajustes"
+        tools:layout="@layout/fragment_ajuste" />
+</navigation>
